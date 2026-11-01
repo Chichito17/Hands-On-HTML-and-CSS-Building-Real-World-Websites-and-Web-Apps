@@ -109,3 +109,55 @@ h2 {
     text-decoration: none;
     z-index: 10;
 }
+
+/* ESTILOS DEL WIDGET DEL CLIMA */
+
+.seccion-clima {
+    background-color: #f0f7ff;
+    border: 2px solid #cce3fe;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 20px 0;
+}
+
+.caja-clima-cv {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+#ciudad-clima {
+    flex: 1;
+    min-width: 0;
+    padding: 10px;
+    border: 1px solid #aac4e0;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+#btn-clima {
+    background-color: #203d63;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#btn-clima:hover {
+    background-color: #315b8c;
+}
+
+.resultado-clima {
+    padding: 12px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.resultado-clima.exito {
+    color: #17633b;
+}
+
+.resultado-clima.error {
+    color: #a12626;
+}

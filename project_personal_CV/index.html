@@ -23,7 +23,19 @@
             <h1>Alejandro Arias Sanjuán</h1>
             <p>Data Science & Business Analytics | Gestión Deportiva</p>
         </header>
+        <!-- WIDGET DEL CLIMA CON API REST (OPEN-METEO) -->
+        <section id="widget-clima" class="seccion-clima">
+            <h2>🌤 Estado del Tiempo en Directo</h2>
 
+            <div class="caja-clima-cv">
+                <input type="text" id="ciudad-clima" value="Madrid" placeholder="Escribe una ciudad">
+                <button type="button" id="btn-clima">Ver Clima</button>
+            </div>
+
+            <div id="resultado-clima" class="resultado-clima">
+                Pulsa el botón para consultar el clima.
+            </div>
+        </section>
         <!-- Contact information -->
         <section id="contact">
             <h2>Contacto</h2>
@@ -78,6 +90,9 @@
     </div>
 
     <a href="#" class="volver-arriba">↑ Volver arriba</a>
+
+    <!-- Script que conecta con la API -->
+    <script src="clima.js"></script>
 
 </body>
 
